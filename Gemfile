@@ -43,6 +43,8 @@ gem 'rmagick'
 
 gem 'figaro'
 
+gem 'fog', '~> 1.3.1'
+
 gem 'devise'
 
 # Use ActiveModel has_secure_password
