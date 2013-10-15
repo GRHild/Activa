@@ -41,6 +41,8 @@ gem 'carrierwave'
 
 gem 'rmagick'
 
+gem 'figaro'
+
 gem 'devise'
 
 # Use ActiveModel has_secure_password
