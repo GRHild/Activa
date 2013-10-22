@@ -38,3 +38,5 @@ Ativa::Application.configure do
     :enable_starttls_auto => true
   }
 end
+
+BetterErrors::Middleware.allow_ip! ENV['TRUSTED_IP'] if ENV['TRUSTED_IP']
